@@ -51,10 +51,12 @@ Answer the user's question using ONLY this data:
 
 User question: {query}
 
-Format the answer nicely:
-- Use bullet points
-- Be concise
-- Be friendly
+IMPORTANT:
+- Do NOT greet the user
+- Do NOT say "Hi", "Hello", or similar
+- Continue the conversation naturally
+- Be concise and professional
+- Use bullet points if needed
     """
 
     return generate_response(prompt)

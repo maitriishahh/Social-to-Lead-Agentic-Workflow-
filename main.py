@@ -88,10 +88,12 @@ def chat():
             print("Bot: Welcome to AutoStream, an AI-powered video editing platform for content creators. I can assist you with pricing, policies or getting started :)")
         
         elif intent == 'pricing':
+            print("Bot: Let me pull up the details for you…")
             data = retrieve_answer(user_input)
             print('Bot:',data)
 
         elif intent == 'policies':
+            print("Bot: Let me pull up the details for you…")
             data = retrieve_answer(user_input)
             print('Bot:',data)
 
